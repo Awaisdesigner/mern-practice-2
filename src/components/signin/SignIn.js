@@ -6,6 +6,7 @@ import VpnKeyOutlinedIcon from '@mui/icons-material/VpnKeyOutlined';
 import { NavLink } from 'react-router-dom'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import AddHomeWorkIcon from '@mui/icons-material/AddHomeWork';
 import './SignIn.css'
 
 
@@ -62,7 +63,7 @@ const SignIn = () => {
             // })
         }
         else {
-            alert("successfully login") 
+            alert("successfully login")
             console.log("Valid data");
             setData({ ...data, email: "", password: "" });
         }
@@ -73,8 +74,11 @@ const SignIn = () => {
     return (
         <section>
             <div className="sign_container coi">
-                <div className="sign_header">
-                    <img src={pic} alt="logoo" />
+                <div className="sign_header" style={{marginTop:30}}>
+                    <AddHomeWorkIcon /> <br /> <br /> <br /> <br />
+                    {/* <img src={pic} alt="logoo" /> */}
+                    
+
                 </div>
 
                 <div className="sign_form">
@@ -98,7 +102,6 @@ const SignIn = () => {
                 </div>
 
                 <div className="create_accountinfo">
-                    <p>New to Amazon</p>
                     <NavLink to="/register">
                         <button>Create Your Amazon Account</button>
                     </NavLink>

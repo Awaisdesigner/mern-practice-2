@@ -1,7 +1,8 @@
 footer{
     position: relative;
-    top: 60px;
+    top: 208px;
     background-color:#232F3E;
+    height: auto;
 }
 
 footer .footer_container{

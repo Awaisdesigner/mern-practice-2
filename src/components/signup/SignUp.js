@@ -4,9 +4,15 @@ import { NavLink } from 'react-router-dom'
 import './SignUp.css'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import AddHomeWorkIcon from '@mui/icons-material/AddHomeWork';
+
 
 
 const SignUp = () => {
+
+
+
+
 
   const [udata, setUdata] = useState({
     fname: '',
@@ -16,6 +22,9 @@ const SignUp = () => {
     cpassword: ''
 
   });
+
+
+
 
 
   console.log(udata);
@@ -81,7 +90,12 @@ const SignUp = () => {
     <section>
       <div className="sign_container">
         <div className="sign_header">
-          <img src={pic} alt="logoo" />
+
+          <div style={{ textAlign: 'center', marginTop: 30 }}>
+            <AddHomeWorkIcon /> <br /> <br /> <br /> <br /> <br />
+          </div>
+          {/* <img src={pic} alt="logoo" /> */}
+
         </div>
 
         <div className="sign_form">

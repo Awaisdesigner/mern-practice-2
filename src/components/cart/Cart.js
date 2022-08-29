@@ -23,7 +23,7 @@ const Cart = () => {
 
 
         const data = await res.json();
-
+        console.log(data);
 
         if (res.status !== 201) {
             console.log("No data available");
@@ -36,12 +36,43 @@ const Cart = () => {
 
 
 
+    
+
 
     useEffect(() => {
         getIndividualData();
     }, [id]);
 
 
+
+    const addtocart = async (id) => {
+        const checkres = await fetch(`/addcart/${id}`, {
+            method: "POST",
+
+            headers: {
+                Accept: "application/json",
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify({
+                individualData
+            }),
+
+            credentials: "include"
+        });
+
+        const data1 = await checkres.json();
+        console.log(data1 + "frontend data");
+
+        if (checkres.status === 401 || !data1) {
+            console.log("user invalid");
+            alert("user invalid")
+
+        }
+        else {
+            alert("Data added in cart")
+        }
+
+    }
 
 
     return (
@@ -51,7 +82,7 @@ const Cart = () => {
                     <div className="left_cart">
                         <img src={individualData.url} alt="cart-img" />
                         <div className="cart_btn">
-                            <button className="cart_btn1">Add to Cart</button>
+                            <button className="cart_btn1" onClick={() => addtocart(individualData.id)}>Add to Cart</button>
                             <button className="cart_btn2">Buy Now</button>
                         </div>
                     </div>

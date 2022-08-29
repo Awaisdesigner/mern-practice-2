@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react';
-import Banner from './Banner';
 import Slider from './Slider';
 import { getProducts } from '../redux/actions/Action';
 import { useSelector, useDispatch } from "react-redux";
@@ -22,8 +21,12 @@ const Home = () => {
 
     return (
         <div className="home_section">
-            <div className="banner_part">
-                <Banner />
+            <div className="banner_part" style={{textAlign: 'center'}}>
+                {/* <div className='color'> */}
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqguznmFobK0_MLU-BSoZuxdcyeLxsLFDoEQ&usqp=CAU" alt="" style={{ padding: 30 }} />
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqguznmFobK0_MLU-BSoZuxdcyeLxsLFDoEQ&usqp=CAU" alt="" style={{ padding: 30 }} />
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqguznmFobK0_MLU-BSoZuxdcyeLxsLFDoEQ&usqp=CAU" alt="" style={{ padding: 30 }} />
+                {/* </div> */}
             </div>
 
             <div className="slide_part">

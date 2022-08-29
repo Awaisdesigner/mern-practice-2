@@ -1,5 +1,5 @@
 import React from 'react'
-import amzn from '../../assets/amazon_PNG25.png'
+// import amzn from '../../assets/amazon_PNG25.png' 
 import './Footer.css'
 
 const Footer = () => {
@@ -37,10 +37,10 @@ const Footer = () => {
                 </div>
             </div>
             
-            <div className="last_details">
-                <img src={amzn} alt="amazon" />
-                <p>Conditions of Use & Sale &nbsp; &nbsp;&nbsp;  Privacy Notice  &nbsp; &nbsp;&nbsp; Interest-Based Ads  &nbsp; &nbsp;&nbsp;  © 1996-{year}, Amazon.com, Inc. or its affiliates</p>
-            </div>
+            {/* <div className="last_details">  */}
+                {/* <img src={amzn} alt="amazon" />  */}
+                {/* <p>Conditions of Use & Sale &nbsp; &nbsp;&nbsp;  Privacy Notice  &nbsp; &nbsp;&nbsp; Interest-Based Ads  &nbsp; &nbsp;&nbsp;  © 1996-{year}, Amazon.com, Inc. or its affiliates</p>  */}
+            {/* </div>  */}
 
         </footer>
     )

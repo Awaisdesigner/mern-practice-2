@@ -5,6 +5,7 @@ import SearchIcon from '@mui/icons-material/Search'
 import Badge from '@mui/material/Badge';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import Avatar from '@mui/material/Avatar';
+import AddHomeWorkIcon from '@mui/icons-material/AddHomeWork';
 import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
@@ -14,7 +15,9 @@ const Navbar = () => {
                 <div className="left">
                     <div className="navlogo">
                         <NavLink to="/">
-                        <img src={img1} alt="logo" />
+                            {/* <img src={img1} alt="logo" /> */}
+                            <AddHomeWorkIcon color= "danger" sx={{ fontSize: 24 }}/> &nbsp; &nbsp;
+                            <span style={{color: 'white',textDecoration: 'none'}}>Real Estate</span>
                         </NavLink>
                     </div>
 
@@ -29,7 +32,10 @@ const Navbar = () => {
 
                 <div className="right">
                     <div className="nav_btn">
-                        <NavLink to="/login">signin</NavLink>
+                        <NavLink to="/login" style={{backgroundColor: 'orange', border:'none'}}>login</NavLink>
+                    </div>
+                    <div className="nav_btn">
+                        <NavLink to="/register" style={{backgroundColor: 'orange', border:'none'}}>signup</NavLink>
                     </div>
                     <div className="cart_btn">
                         <Badge badgeContent={4} color="secondary">
@@ -38,7 +44,7 @@ const Navbar = () => {
                         <p>Cart</p>
                     </div>
                     <Avatar className='avatar' />
-                </div> 
+                </div>
 
             </nav>
         </header>

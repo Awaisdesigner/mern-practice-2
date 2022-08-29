@@ -1,11 +1,11 @@
 export const products = [
     {
         id: 'product1',
-        url: 'https://rukminim1.flixcart.com/image/150/150/kapoo7k0/electric-kettle/p/6/s/pigeon-favourite-original-imafs7xhj5uwgrh4.jpeg?q=70',
-        detailUrl: 'https://rukminim1.flixcart.com/image/416/416/kapoo7k0/electric-kettle/p/6/s/pigeon-favourite-original-imafs7xhj5uwgrh4.jpeg?q=70',
+        url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqJjBycXflyTssGt1evL3SKrEmeumTBLQz7VGbyMy9tUAFqSD0JdZQ0JIcKiZlu_lFV-8&usqp=CAU',
+        detailUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqJjBycXflyTssGt1evL3SKrEmeumTBLQz7VGbyMy9tUAFqSD0JdZQ0JIcKiZlu_lFV-8&usqp=CAU',
         title: {
-            shortTitle: 'Home & Kitchen',
-            longTitle: 'Pigeon FAVOURITE Electric Kettle  (1.5 L, Silver, Black)'
+            shortTitle: 'Home',
+            longTitle: 'Home is very beautiful'
         },
         price: {
             mrp: 1195,
@@ -14,74 +14,74 @@ export const products = [
         },
         description: 'This electric kettle from Pigeon will soon become a travelers best friend, a hostelite saviour and an answer to all the midnight cravings. With this handy appliance, you can boil water and use it to make instant noodles, packet soup, coffee and green tea.',
         discount: 'Extra 10% Off',
-        tagline: 'Deal of the day'
+        tagline: 'Working'
     },
     {
         id: 'product2',
-        url: 'https://rukminim1.flixcart.com/image/416/416/kl6wx3k0/sandwich-maker/8/r/d/sandwich-01-flipkart-smartbuy-original-imagydds4zthxt8z.jpeg?q=70',
-        detailUrl: 'https://rukminim1.flixcart.com/image/416/416/kl6wx3k0/sandwich-maker/8/r/d/sandwich-01-flipkart-smartbuy-original-imagydds4zthxt8z.jpeg?q=70',
+        url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGI6MVnc4PyHx6DxWho0LVVwLhgmarjarvTcJtststZiaMFrdTdXA7DlN12EX2Tyqaudc&usqp=CAU',
+        detailUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGI6MVnc4PyHx6DxWho0LVVwLhgmarjarvTcJtststZiaMFrdTdXA7DlN12EX2Tyqaudc&usqp=CAU',
         title: {
-            shortTitle: 'Sandwich Makers',
-            longTitle: 'Flipkart SmartBuy Sandwich 01 Grill  (Black)'
+            shortTitle: 'House is sheter',
+            longTitle: 'House plots'        
         },
         price: {
             mrp: 1499,
             cost: 899,
             discount: '40%'
-        },
-        description: 'This non-stick sandwich toaster .easy to use and very handy. Directly hold over flame to make tasty toasts and toasted sandwiches. Specially designed by keeping your needs in mind, the sandwich maker makes whatever youre doing simpler, smarter and better',
+        },                  
+        description: 'House is good place to live',
         discount: 'From 99+5% Off',
-        tagline: 'Pestige, Nova & more'
+        tagline: 'Living'
     },
     {
         id: 'product3',
-        url: 'https://rukminim1.flixcart.com/image/150/150/kohigsw0/resistance-tube/c/s/e/new-adjustable-single-resistance-tube-multicolor-na-ajro-deal-original-imag2xg88mhmwxz5.jpeg?q=70',
-        detailUrl: 'https://rukminim1.flixcart.com/image/416/416/kohigsw0/resistance-tube/c/s/e/new-adjustable-single-resistance-tube-multicolor-na-ajro-deal-original-imag2xg88mhmwxz5.jpeg?q=70',
+        url: 'https://media.istockphoto.com/photos/single-family-new-construction-home-in-suburb-neighborhood-in-the-picture-id1147674294?k=20&m=1147674294&s=612x612&w=0&h=7eSceNNA1USRkMbTM6DXPl7UGB1kRvHHcdB-tehn4SQ=',
+        detailUrl: 'https://media.istockphoto.com/photos/single-family-new-construction-home-in-suburb-neighborhood-in-the-picture-id1147674294?k=20&m=1147674294&s=612x612&w=0&h=7eSceNNA1USRkMbTM6DXPl7UGB1kRvHHcdB-tehn4SQ=',
         title: {
-            shortTitle: 'Fitness Gear',
-            longTitle: 'AJRO DEAL New Adjustable Single Resistance Tube (Multicolor) Resistance Tube  (Multicolor)'
+            shortTitle: 'Colony',
+            longTitle: 'Housing society plots'
         },
         price: {
             mrp: 499,
             cost: 166,
             discount: '66%'
         },
-        description: 'This unique product can tone your back muscles, reduce belly fat, improve blood circulation and also improves your body posture. It increases the stamina, energy and vitality of the body. The elastic resistance of the rubber training rope can be used to train and exercise in whichever way you want, according to your physical needs.',
-        discount: 'Upto 70% Off',
-        tagline: 'Deal of the Day'
+        description: 'House In San Francisco! Find Related Articles on Visymo Search. Unlimited Access. The Best Resources. Always Facts. Results & Answers. Completely Secure. Privacy Friendly.',
+        discount: 'Upto 13% Off',
+        tagline: 'Living'
     },
     {
         id: 'product4',
-        url: 'https://rukminim1.flixcart.com/image/300/300/kll7bm80/smartwatch/c/1/n/43-mo-sw-sense-500-android-ios-molife-original-imagyzyycnpujyjh.jpeg?q=70',
-        detailUrl: 'https://rukminim1.flixcart.com/image/416/416/kll7bm80/smartwatch/c/1/n/43-mo-sw-sense-500-android-ios-molife-original-imagyzyycnpujyjh.jpeg?q=70',
+        url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMBobxYJbgGfviYGqPhqGM2kWdhk_c-FoZaw&usqp=CAU',
+        detailUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMBobxYJbgGfviYGqPhqGM2kWdhk_c-FoZaw&usqp=CAU',
         title: {
-            shortTitle: 'Smart Watches',
-            longTitle: 'Molife Sense 500 Smartwatch  (Black Strap, Freesize)',
+            shortTitle: 'Buautiful Houses',
+            longTitle: 'Molife Sense 500 house (Black,color)',
         },
         price: {
             mrp: 6999,
             cost: 4049,
             discount: '42%'
         },
-        description: 'The Molife Sense 500, a brilliant smartwatch with a beautiful large display. Say hello to the infinity 1.7-inch display with 2.5D curved edges. Thanks to seamless Bluetooth 5.0 connectivity, you wont have to keep waiting. Bring a change to your outfit every day with changeable straps. A splash of color every day keeps the boredom away.',
-        discount: 'Grab Now',
+        description: 'A house is a single-unit residential building. It may range in complexity from a rudimentary hut to a complex structure of wood, masonry, concrete or other material.',
+        discount: 'Up t0 18% off',
         tagline: 'Best Seller'
     },
     {
         id: 'product5',
-        url: 'https://rukminim1.flixcart.com/image/416/416/k3uhhu80/hair-dryer/n/m/t/nova-2800-w-professional-nhp-8220-original-imafmvwfhmzsxdrw.jpeg?q=70',
-        detailUrl: 'https://rukminim1.flixcart.com/image/416/416/k3uhhu80/hair-dryer/n/m/t/nova-2800-w-professional-nhp-8220-original-imafmvwfhmzsxdrw.jpeg?q=70',
+        url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMenzjFqHFo5KqZpwfwPa05SnmE3rwO4ADLA&usqp=CAU',
+        detailUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMenzjFqHFo5KqZpwfwPa05SnmE3rwO4ADLA&usqp=CAU',
         title: {
-            shortTitle: 'Trimmers, Dryers & more',
-            longTitle: 'Nova Professional NHP 8220 Hair Dryer  (1800 W, Multicolor)'
+            shortTitle: 'Luxury Houses',
+            longTitle: 'Colony  (1800 W, Multicolor)'
         },
         price: {
             mrp: 1899,
             cost: 1124,
             discount: '40%'
         },
-        description: 'The Molife Sense 500, a brilliant smartwatch with a beautiful large display. Say hello to the infinity 1.7-inch display with 2.5D curved edges. Thanks to seamless Bluetooth 5.0 connectivity, you wont have to keep waiting. Bring a change to your outfit every day with changeable straps. A splash of color every day keeps the boredom away.',
-        discount: 'From ₹499',
-        tagline: 'Kubra, Nova & more'
+        description: 'My house is a kaleidoscope of memories, of photographs adorning the walls, each of them conjuring the emotions of those sweet eternal moments.',
+        discount: 'Up to 20% off',
+        tagline: 'Housing'
     }
 ]
